@@ -58,7 +58,7 @@ The dataset used for this project can be downloaded from the following source:
 
 ## Project Repository
 
-The project is available on GitHub under the project name [Social Media Sentiment Analysis](https://github.com/your-username/social-media-sentiment-analysis).
+The project is available on GitHub under the project name [Social Media Sentiment Analysis]([https://github.com/your-username/social-media-sentiment-analysis](https://github.com/Pranay62/SentimentalAnalysis_Project/)).
 
 Please refer to the project repository for the code implementation and additional details.
 
