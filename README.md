@@ -1,54 +1,64 @@
-**Solution details:**
+# Social Media Sentiment Analysis
 
-**Data Source & Data Extraction**
+This project focuses on performing sentiment analysis on social media data extracted from Twitter, Amazon Reviews, and YouTube. The goal is to analyze the sentiment of the users' opinions and comments on these platforms.
 
-Data will be extracted from the following Social Media sites through methods such as scraping or connecting to their APIs: 
+## Data Source & Data Extraction
 
-  ▪ Twitter 
-  ▪ Amazon Reviews
-  ▪ YouTube
-  
-We will leverage on twitters fast streaming data  as well as its popularity and openness of ideas Amazon and Youtube will be leverage for a 
-more focused Dataset, with Amazon reviews as a labelled dataset.
+Data is extracted from the following social media sites through methods such as scraping or connecting to their APIs:
 
+- Twitter
+- Amazon Reviews
+- YouTube
 
-**Twitter Data Extraction**
+Twitter is used for fast streaming data and its popularity and openness of ideas, while Amazon Reviews provide a labeled dataset for sentiment analysis. YouTube is leveraged for a more focused dataset.
 
-To massively extract related data from twitter, we  have performed the following procedures:
-1. Create Twitter Developer Account and Obtain Consumer Keys & Authentication Tokens.
-2. Code Data Extraction Solutions by Python Tweepy Library.
-3. Data Wrangling on Extracted data, transform it into readable format.
+### Twitter Data Extraction
 
-**Data Cleaning/ Preprocessing**
+To extract related data from Twitter, the following procedures were performed:
 
-Text preprocessing will be performed using various python packages. Approaches includes the following:
-Word Correction: 
+1. Create a Twitter Developer Account and obtain Consumer Keys & Authentication Tokens.
+2. Code data extraction solutions using Python's Tweepy library.
+3. Data wrangling on the extracted data to transform it into a readable format.
 
-    ▪ Lower casing 
-    ▪ Spelling correction 
-    ▪ Convert emojis and emoticons into words
-    
-Word Reduction: 
+## Data Cleaning/Preprocessing
 
-    ▪ Removal of punctuations 
-    ▪ Stop-word removal – stop-words are a set of commonly used words in a language (e.g. “a”, “we”, “the”, “is” etc.)
-    ▪ Removal of URLs 
-    ▪ Lemmatization – process of converting a words to its base form (e.g. “studies” -> “study”)
-    
-**Solution details**
+Text preprocessing is performed using various Python packages. The following approaches are applied:
 
-Analysis: 
+- Word Correction:
+  - Lowercasing
+  - Spelling correction
+  - Conversion of emojis and emoticons into words
 
-    ▪ Sentiment Analysis 
-    ▪ Sentiment analysis will be performed,using python packages, on processed data using two approaches:
-    
-            1. Simple sentiment analysis on twitter data based on positive/negative, subjective/objective words. 
-               Pre-Trained Machine Learning Algorithm will be used over both Amazon and twitter dataset. For Amazon 
-               dataset, generated sentiment will be cross-referenced with original rating to analyze the performance of the algorithm.
-            2. Naïve Bayes modelling trained on labelled data(Amazon reviews) to classify twitter data into positive and negative sentiment
-            
-    ▪ Motivation for using two approaches is to compare the results between both approaches and select one that is most suitable.
+- Word Reduction:
+  - Removal of punctuations
+  - Stop-word removal (commonly used words in a language)
+  - Removal of URLs
+  - Lemmatization (converting words to their base form)
 
-**Dataset to be downloaded from:-**
+## Solution Details
 
-https://www.kaggle.com/datasets/PromptCloudHQ/amazon-reviews-unlocked-mobile-phones
+### Analysis
+
+The analysis includes sentiment analysis using the following approaches:
+
+1. Simple Sentiment Analysis:
+   - Based on positive/negative and subjective/objective words.
+   - Pre-trained machine learning algorithms are used on both the Amazon and Twitter datasets.
+   - Sentiment generated on the Amazon dataset is cross-referenced with the original rating to evaluate the algorithm's performance.
+
+2. Naïve Bayes Modelling:
+   - Trained on labeled data (Amazon Reviews) to classify Twitter data into positive and negative sentiment.
+
+The motivation for using two approaches is to compare the results and select the most suitable one.
+
+## Dataset
+
+The dataset used for this project can be downloaded from the following source:
+[Amazon Reviews - Unlocked Mobile Phones](https://www.kaggle.com/datasets/PromptCloudHQ/amazon-reviews-unlocked-mobile-phones)
+
+## Project Repository
+
+The project is available on GitHub under the project name [Social Media Sentiment Analysis](https://github.com/your-username/social-media-sentiment-analysis).
+
+Please refer to the project repository for the code implementation and additional details.
+
